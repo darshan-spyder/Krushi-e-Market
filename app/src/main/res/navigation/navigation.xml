@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_price">
+
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.example.navigationdraweractivity.ui.weather.WeatherFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/nav_price"
+        android:name="com.example.navigationdraweractivity.ui.price.PriceFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_price" />
+
+    <fragment
+        android:id="@+id/nav_buy"
+        android:name="com.example.navigationdraweractivity.ui.buy.BuyFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_buy" />
+
+    <fragment
+        android:id="@+id/nav_sell"
+        android:name="com.example.navigationdraweractivity.ui.sell.SellFragment"
+        android:label="@string/menu_sell"
+        tools:layout="@layout/fragment_sell" />
+
+    <fragment
+        android:id="@+id/nav_govScheme"
+        android:name="com.example.navigationdraweractivity.ui.govscheme.GovSchemeFragment"
+        android:label="@string/menu_gov_scheme"
+        tools:layout="@layout/fragment_gov_scheme" />
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.example.navigationdraweractivity.ui.sellhistory.SellHistory"
+        android:label="@string/menu_sellHistory"
+        tools:layout="@layout/fragment_sell_history" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.navigationdraweractivity.ui.contact.ContactFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contact" />
+    <fragment
+        android:id="@+id/nav_service"
+        android:name="com.example.navigationdraweractivity.ui.service.ServiceFragment"
+        android:label="@string/menu_service"
+        tools:layout="@layout/fragment_service" />
+    <fragment
+        android:id="@+id/nav_tandc"
+        android:name="com.example.navigationdraweractivity.ui.tandc.TandCFragment"
+        android:label="@string/menu_tandc"
+        tools:layout="@layout/fragment_tand_c" />
+    <fragment
+        android:id="@+id/nav_language"
+        android:name="com.example.navigationdraweractivity.ui.language.LanguageFragment"
+        android:label="@string/menu_language"
+        tools:layout="@layout/fragment_language" />
+    <activity
+        android:id="@+id/registrationActivity"
+        android:name="com.example.navigationdraweractivity.RegistrationActivity"
+        android:label="activity_registration"
+        tools:layout="@layout/activity_registration" />
+    <fragment
+        android:id="@+id/nav_buy_history"
+        android:name="com.example.navigationdraweractivity.ui.buyhistory.BuyHistory"
+        android:label="@string/menu_buyHistory"
+        tools:layout="@layout/fragment_buy_history" />
+
+</navigation>

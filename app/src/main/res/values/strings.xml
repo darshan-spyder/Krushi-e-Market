@@ -1,0 +1,675 @@
+<resources>
+    <string name="app_name">Krushi e-Market</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_cart">Cart</string>
+
+    <string name="menu_home">Weather</string>
+    <string name="menu_gallery">Price</string>
+    <string name="menu_slideshow">Buy</string>
+    <string name="menu_sell">Sell</string>
+    <string name="menu_gov_scheme">Government Scheme</string>
+    <string name="item_setting">Setting</string>
+    <string name="menu_sellHistory">Sell History</string>
+    <string name="menu_buyHistory">Buy History</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_service">Service</string>
+    <string name="menu_tandc">Terms&amp;Condition</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_logout">Logout</string>
+
+    <string-array name="Crop_Categary">
+
+        <item>Cereals</item>
+        <item>Pulses</item>
+        <item>Spices</item>
+        <item>CashCrops</item>
+
+    </string-array>
+
+    <string-array name="cereals_list">
+        <item>Millet</item>
+        <item>Rice</item>
+        <item>Corn</item>
+        <item>Wheat</item>
+        <item>Sorghum</item>
+    </string-array>
+
+    <string-array name="pulses_list">
+        <item>Pigeon pea</item>
+        <item>Chickpeas(Brown)</item>
+        <item>Cowpea</item>
+        <item>Chickpeas(White)</item>
+        <item>Red lentils</item>
+        <item>Pea</item>
+        <item>Mung beans</item>
+        <item>Moth beans</item>
+        <item>Kidney beans</item>
+        <item>Sesame</item>
+        <item>Urad dal</item>
+        <item>Field beans</item>
+    </string-array>
+
+    <string-array name="spices_list">
+        <item>Bay leaf</item>
+        <item>Cardamom</item>
+        <item>Cinnamon</item>
+        <item>Cumin</item>
+        <item>Star anise</item>
+    </string-array>
+
+    <string-array name="cash_crops_list">
+        <item>Peanut</item>
+        <item>Sugarcane</item>
+        <item>Cotton</item>
+        <item>Tea</item>
+        <item>Coffee</item>
+    </string-array>
+
+<!--    <string-array name="District">-->
+<!--        <item>Da</item>-->
+<!--        <item>Db</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="Da_Taluka">-->
+<!--        <item>DaTa</item>-->
+<!--        <item>DaTb</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="DaTa_Village">-->
+<!--        <item>DaTava</item>-->
+<!--        <item>DaTavb</item>-->
+<!--    </  string-array>-->
+
+<!--    <string-array name="DaTb_Village">-->
+<!--        <item>DaTbva</item>-->
+<!--        <item>DaTbvb</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="Db_Taluka">-->
+<!--        <item>DbTa</item>-->
+<!--        <item>DbTb</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="DbTa_Village">-->
+<!--        <item>DbTava</item>-->
+<!--        <item>DbTavb</item>-->
+<!--    </string-array>-->
+
+<!--    <string-array name="DbTb_Village">-->
+<!--        <item>DbTbva</item>-->
+<!--        <item>DbTbvb</item>-->
+<!--    </string-array>-->
+
+
+
+    <string-array name="District">
+        <item>Junagadh</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="junagadh_Taluka">
+        <item>junagadh</item>
+        <item>vanthali</item>
+        <item>manavadar</item>
+        <item>keshod</item>
+        <item>mangrol</item>
+        <item>mendarda</item>
+        <item>maliya hatina</item>
+        <item>bhesan</item>
+        <item>visavadar</item>
+    </string-array>
+
+    <string-array name="junagadh_Village">
+        <item>ambaliya</item>
+        <item>anandpur</item>
+        <item>avatadiya mota</item>
+        <item>avatadiya nana</item>
+        <item>badalpur</item>
+        <item>bagdu</item>
+        <item>baliyavad</item>
+        <item>bamangam</item>
+        <item>bandhala</item>
+        <item>bela</item>
+        <item>bhalgam</item>
+        <item>bhiyal</item>
+        <item>bilkha</item>
+        <item>bordevi</item>
+        <item>choki</item>
+        <item>chokli</item>
+        <item>chorvadi</item>
+        <item>datar hils</item>
+        <item>goladhar</item>
+        <item>hasnapur</item>
+        <item>indreshvar</item>
+        <item>intala</item>
+        <item>isapur</item>
+        <item>ivnagar</item>
+        <item>jamka</item>
+        <item>jhalansar</item>
+        <item>junagadh</item>
+        <item>kathrota</item>
+        <item>kerala</item>
+        <item>khadiya</item>
+        <item>khalilpur</item>
+        <item>majevdi</item>
+        <item>makhiyala</item>
+        <item>mandanpara</item>
+        <item>mandilkpur</item>
+        <item>mevasa khadiya</item>
+        <item>nava pipaliya</item>
+        <item>navagam</item>
+        <item>padariya</item>
+        <item>palasva</item>
+        <item>patapur</item>
+        <item>patrapsar</item>
+        <item>prabhatpur</item>
+        <item>rameshvar</item>
+        <item>ramanath</item>
+        <item>rupavati</item>
+        <item>sagdividi</item>
+        <item>salatha</item>
+        <item>sankhadavadar</item>
+        <item>semrala</item>
+        <item>sodvadar</item>
+        <item>sukhpur</item>
+        <item>surajkund</item>
+        <item>taliyadhar</item>
+        <item>thumbala</item>
+        <item>toraniya</item>
+        <item>umrala</item>
+        <item>vadal</item>
+        <item>vadasimdi</item>
+        <item>vadhvi</item>
+        <item>vanandiya</item>
+        <item>vijapur</item>
+        <item>virpur</item>
+    </string-array>
+
+    <string-array name="vanthali_Village">
+        <item>akha</item>
+        <item>balot</item>
+        <item>bandhada</item>
+        <item>bantiya</item>
+        <item>barwala</item>
+        <item>bhatiya</item>
+        <item>bodka</item>
+        <item>dhandhuar</item>
+        <item>dhanfuliya</item>
+        <item>dungri</item>
+        <item>gadoi</item>
+        <item>ganthila</item>
+        <item>ghantiya</item>
+        <item>ghudvadar</item>
+        <item>kajaliya mota</item>
+        <item>kajaliya nana</item>
+        <item>kanjha</item>
+        <item>kanjhadi</item>
+        <item>khokhrada</item>
+        <item>khorasa</item>
+        <item>khumbhadi</item>
+        <item>koyli</item>
+        <item>lushala</item>
+        <item>luvarsar</item>
+        <item>mahobatpur</item>
+        <item>meghpur</item>
+        <item>nagadiya</item>
+        <item>nandarkhi</item>
+        <item>naredi</item>
+        <item>navada</item>
+        <item>navlakhi</item>
+        <item>ravni</item>
+        <item>raypur</item>
+        <item>santalpur</item>
+        <item>serla</item>
+        <item>sendarda</item>
+        <item>shapur</item>
+        <item>sonardi</item>
+        <item>sukhpur</item>
+        <item>thanapipli</item>
+        <item>tikar padardi</item>
+        <item>tinmas</item>
+        <item>umatvada</item>
+        <item>vadla</item>
+        <item>vaspada</item>
+        <item>zampodad</item>
+    </string-array>
+
+    <string-array name="manavadar_Village">
+        <item>ambaliya</item>
+        <item>bhalechda</item>
+        <item>bhalgam</item>
+        <item>bhindora</item>
+        <item>bhitana</item>
+        <item>bodka</item>
+        <item>buri</item>
+        <item>chikhlodra</item>
+        <item>chudva</item>
+        <item>davda</item>
+        <item>dagad</item>
+        <item>deshinga</item>
+        <item>eklera</item>
+        <item>galvav</item>
+        <item>gana</item>
+        <item>indra</item>
+        <item>jambuda</item>
+        <item>jilana</item>
+        <item>katakpara</item>
+        <item>khadiya</item>
+        <item>khakhvi</item>
+        <item>kodvav</item>
+        <item>khothadi</item>
+        <item>khothariya</item>
+        <item>koylana</item>
+        <item>limbuda</item>
+        <item>mandodra</item>
+        <item>marmath</item>
+        <item>matiana</item>
+        <item>mitadi</item>
+        <item>nakra</item>
+        <item>nanadiya</item>
+        <item>nandarkha</item>
+        <item>padardi</item>
+        <item>pajod</item>
+        <item>piplana</item>
+        <item>rafala</item>
+        <item>ronki</item>
+        <item>samega</item>
+        <item>sanosra</item>
+        <item>saradiya</item>
+        <item>sarang pipli</item>
+        <item>sardargadh</item>
+        <item>sherdi</item>
+        <item>sitana</item>
+        <item>sultanbad</item>
+        <item>thaniyana</item>
+        <item>thapala</item>
+        <item>untadi</item>
+        <item>vada</item>
+        <item>vadala</item>
+        <item>vadasda</item>
+        <item>vekri</item>
+        <item>velva</item>
+        <item>zinzri</item>
+    </string-array>
+
+    <string-array name="keshod_Village">
+        <item>agatri</item>
+        <item>ajab</item>
+        <item>akhodra</item>
+        <item>badodar</item>
+        <item>balagam</item>
+        <item>bamnasa</item>
+        <item>bava simroli</item>
+        <item>bhat simroli</item>
+        <item>chandigadh</item>
+        <item>char</item>
+        <item>chitri</item>
+        <item>dervan</item>
+        <item>dhrabavad</item>
+        <item>eklera</item>
+        <item>fagli</item>
+        <item>gelana</item>
+        <item>handla</item>
+        <item>indrana</item>
+        <item>isra</item>
+        <item>jonpur</item>
+        <item>kalavani</item>
+        <item>kaneri</item>
+        <item>kevadra</item>
+        <item>khamidana</item>
+        <item>khirasra</item>
+        <item>koyalana lathiya</item>
+        <item>madhda</item>
+        <item>magharvada</item>
+        <item>manekwada</item>
+        <item>mangalpur</item>
+        <item>mesvan</item>
+        <item>moti ghansari</item>
+        <item>movana</item>
+        <item>muliyasa</item>
+        <item>nani ghansari</item>
+        <item>nonjhanvav</item>
+        <item>nunarda</item>
+        <item>padodar</item>
+        <item>panchala</item>
+        <item>pankhan</item>
+        <item>pasvaliya</item>
+        <item>pipli</item>
+        <item>pransli</item>
+        <item>ranpur</item>
+        <item>raningapra</item>
+        <item>revadra</item>
+        <item>sangarsola</item>
+        <item>sarod</item>
+        <item>shergadh</item>
+        <item>silodar</item>
+        <item>sondarda</item>
+        <item>sutreji</item>
+        <item>titodi</item>
+    </string-array>
+
+    <string-array name="mangrol_Village">
+        <item>ajak</item>
+        <item>antroli</item>
+        <item>arena</item>
+        <item>bagasra ghed</item>
+        <item>bamanvada</item>
+        <item>bhatgam</item>
+        <item>bhathrot</item>
+        <item>chandavana</item>
+        <item>chankhava</item>
+        <item>chingariya</item>
+        <item>chotilividi</item>
+        <item>darsali</item>
+        <item>dhelana</item>
+        <item>divasa</item>
+        <item>divrana</item>
+        <item>farangta</item>
+        <item>fulrama</item>
+        <item>ghodadar</item>
+        <item>gorej</item>
+        <item>hantarpur</item>
+        <item>husenabad</item>
+        <item>jamvali</item>
+        <item>juthal</item>
+        <item>kalej</item>
+        <item>kankana</item>
+        <item>kankasa</item>
+        <item>karamdi</item>
+        <item>khodada</item>
+        <item>kotda juna</item>
+        <item>kotda nava</item>
+        <item>lambora</item>
+        <item>langad</item>
+        <item>lathodra</item>
+        <item>lohej</item>
+        <item>maktupur</item>
+        <item>mankhetra</item>
+        <item>mekhadi</item>
+        <item>menanj</item>
+        <item>miti</item>
+        <item>nagichana</item>
+        <item>nandarkhi</item>
+        <item>osa ghed</item>
+        <item>rahji</item>
+        <item>roodalpur</item>
+        <item>sakrana</item>
+        <item>samarda</item>
+        <item>sandha</item>
+        <item>sangavada</item>
+        <item>sarsali</item>
+        <item>shaikhpur</item>
+        <item>shapur</item>
+        <item>sharma</item>
+        <item>shepa</item>
+        <item>sheriyaj</item>
+        <item>sheriyakhan</item>
+        <item>shil</item>
+        <item>sultanpur</item>
+        <item>talodra</item>
+        <item>thali</item>
+        <item>vadla</item>
+        <item>virol</item>
+        <item>virpur</item>
+        <item>zariyavada</item>
+    </string-array>
+
+    <string-array name="mendarda_Village">
+        <item>alidhra</item>
+        <item>amargadh</item>
+        <item>ambala</item>
+        <item>amrapur</item>
+        <item>arniyala</item>
+        <item>babar tirath</item>
+        <item>barvala</item>
+        <item>chandravadi</item>
+        <item>chiroda</item>
+        <item>dantrana</item>
+        <item>dedakiyal</item>
+        <item>devgadh</item>
+        <item>dhandhawada</item>
+        <item>gadakiya</item>
+        <item>gandhali</item>
+        <item>gundala</item>
+        <item>gundiyali</item>
+        <item>itali</item>
+        <item>jhinjhuda</item>
+        <item>kanthala nes</item>
+        <item>karsangadh</item>
+        <item>kenadipur</item>
+        <item>khadpipli</item>
+        <item>khijadiya</item>
+        <item>khim padar</item>
+        <item>lilva</item>
+        <item>malanka</item>
+        <item>manpur</item>
+        <item>mendarda</item>
+        <item>mithapur</item>
+        <item>moti khodiyar</item>
+        <item>nagalpur</item>
+        <item>najapur</item>
+        <item>najapur</item>
+        <item>nani khodiyar</item>
+        <item>nataliya</item>
+        <item>patarama</item>
+        <item>rajavad</item>
+        <item>rajesar</item>
+        <item>ranidhar</item>
+        <item>samadhiyala</item>
+        <item>simasi</item>
+        <item>surajgadh</item>
+        <item>vaniya vav</item>
+
+    </string-array>
+
+    <string-array name="maliyahatina_Village">
+        <item>achhidra</item>
+        <item>akala</item>
+        <item>akala gir</item>
+        <item>ambalgadh</item>
+        <item>ambecha</item>
+        <item>amrapur gir</item>
+        <item>avaniya</item>
+        <item>babra</item>
+        <item>barula</item>
+        <item>bhanduri</item>
+        <item>bhankhanvad</item>
+        <item>bodi</item>
+        <item>budhecha</item>
+        <item>chuldi</item>
+        <item>danderi</item>
+        <item>devgam</item>
+        <item>dhanej moti</item>
+        <item>dhanej nani</item>
+        <item>dharampur</item>
+        <item>dhrabavad</item>
+        <item>dudhla</item>
+        <item>gadu</item>
+        <item>galodar</item>
+        <item>gangecha</item>
+        <item>ghumli</item>
+        <item>ghunghati</item>
+        <item>gotana</item>
+        <item>itali</item>
+        <item>jalondar</item>
+        <item>janadi</item>
+        <item>jangar</item>
+        <item>januda</item>
+        <item>jhadka</item>
+        <item>jhunjharpur</item>
+        <item>kadaya</item>
+        <item>kalimbhada</item>
+        <item>kanek</item>
+        <item>katrasa</item>
+        <item>lerala</item>
+        <item>khambhaliya</item>
+        <item>khera</item>
+        <item>khorasa gir</item>
+        <item>kukasvada</item>
+        <item>lachhadi</item>
+        <item>ladudi gir</item>
+        <item>langodra</item>
+        <item>maliya</item>
+        <item>matarvaniya</item>
+        <item>panidhra</item>
+        <item>pankuva</item>
+        <item>patla</item>
+        <item>pikhor</item>
+        <item>pipalva</item>
+        <item>samdhiyala</item>
+        <item>sarkadiya</item>
+        <item>shantipura</item>
+        <item>sukhpur</item>
+        <item>tarsingda</item>
+        <item>vadala</item>
+        <item>vadiya</item>
+        <item>vandarvad</item>
+        <item>virdi</item>
+        <item>visanvel</item>
+    </string-array>
+
+    <string-array name="bhesan_Village">
+        <item>bamangadh</item>
+        <item>barwala</item>
+        <item>bhatgam</item>
+        <item>bhesan</item>
+        <item>chanaka</item>
+        <item>chhodvadi</item>
+        <item>chuda</item>
+        <item>damrala</item>
+        <item>dholwa</item>
+        <item>dudhala</item>
+        <item>galath</item>
+        <item>gorakhpur</item>
+        <item>gorviyali</item>
+        <item>hadmatiya khajuri</item>
+        <item>hadmatiya khakhra</item>
+        <item>hadmatya vishal</item>
+        <item>juni dhari gundali</item>
+        <item>kariya</item>
+        <item>khambhaliya</item>
+        <item>kharachiya</item>
+        <item>malida</item>
+        <item>mandva</item>
+        <item>mathura thana</item>
+        <item>mendapra</item>
+        <item>morwada</item>
+        <item>mota gujariya</item>
+        <item>nana gujariya</item>
+        <item>nava vaghaniya</item>
+        <item>anvi dhari gundali</item>
+        <item>parab vavdi</item>
+        <item>paswala</item>
+        <item>patla</item>
+        <item>patwad</item>
+        <item>pipaliya tadka</item>
+        <item>rafaliya</item>
+        <item>ranpur</item>
+        <item>samatpara</item>
+        <item>sankrola</item>
+        <item>saradpur</item>
+        <item>sukhpur</item>
+        <item>umrali</item>
+        <item>vandarvad</item>
+    </string-array>
+
+    <string-array name="visavadar_Village">
+        <item>ambala</item>
+        <item>bagoya</item>
+        <item>baradiya</item>
+        <item>barvaniya nes</item>
+        <item>bhalhgam</item>
+        <item>bhat vavdi</item>
+        <item>bhutdi</item>
+        <item>chaparda</item>
+        <item>chavand juni</item>
+        <item>chavand navi</item>
+        <item>chhlda</item>
+        <item>chhelanka</item>
+        <item>dadar</item>
+        <item>desai vadala</item>
+        <item>dhebar</item>
+        <item>dhudhala</item>
+        <item>ghantiyan</item>
+        <item>ghodasam</item>
+        <item>goradwala</item>
+        <item>govindpara</item>
+        <item>hadmatiya mota</item>
+        <item>hadmatiya nava</item>
+        <item>haripur</item>
+        <item>hasnapur</item>
+        <item>ishvariya</item>
+        <item>ishvariya mandavad</item>
+        <item>jambala</item>
+        <item>jambuda</item>
+        <item>jambudi</item>
+        <item>javaldi</item>
+        <item>jetalvad</item>
+        <item>jhanjhesar</item>
+        <item>kalavad</item>
+        <item>kalsari</item>
+        <item>kanavadla</item>
+        <item>kankari</item>
+        <item>kankchiyala</item>
+        <item>khambha gir</item>
+        <item>khambhaliya</item>
+        <item>khambhada</item>
+        <item>khijadiya</item>
+        <item>kotda mota</item>
+        <item>kotda nana</item>
+        <item>kuba</item>
+        <item>lalpur</item>
+        <item>leriya</item>
+        <item>lilapani</item>
+        <item>liliya</item>
+        <item>limadhra</item>
+        <item>lunghiya</item>
+        <item>mahuda</item>
+        <item>mahudi</item>
+        <item>manandiya</item>
+        <item>mandavad</item>
+        <item>manganath pipli</item>
+        <item>miya vadla</item>
+        <item>moniya</item>
+        <item>monpari moti</item>
+        <item>monpari nani</item>
+        <item>pipaliya hajani</item>
+        <item>pirvad</item>
+        <item>piyava gir</item>
+        <item>prempara</item>
+        <item>rabarika</item>
+        <item>rajpara</item>
+        <item>ratang</item>
+        <item>ravani</item>
+        <item>ravani mundiya</item>
+        <item>rupavati</item>
+        <item>sarsari</item>
+        <item>shapar</item>
+        <item>shirvaniya</item>
+        <item>shobhavadla gir</item>
+        <item>shobhavadla lashkar</item>
+        <item>shudavad</item>
+        <item>sukhpur</item>
+        <item>survadi</item>
+        <item>vadala shetranj</item>
+        <item>vajdi</item>
+        <item>vekariya</item>
+        <item>vichhavad</item>
+        <item>virpur</item>
+    </string-array>
+
+        <string-array name="other_Taluka">
+            <item>other1</item>
+        </string-array>
+
+        <string-array name="other1_Village">
+            <item>other2</item>
+        </string-array>
+
+
+
+</resources>

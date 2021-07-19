@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:focusable="false"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/textField"
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="80dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:hint="Search City"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="#0066AA"
+            android:textColorHint="#0066AA"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/searchCity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/search_icon" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_35"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+        <!--        <ImageView-->
+        <!--            android:id="@+id/imageView2"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginStart="49dp"-->
+        <!--            android:layout_marginTop="44dp"-->
+        <!--            android:layout_marginEnd="47dp"-->
+        <!--            app:srcCompat="@drawable/bg_35" />-->
+
+        <ImageView
+            android:id="@+id/weatherIcon"
+            android:layout_width="170dp"
+            android:layout_height="180dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="42dp"
+            android:src="@drawable/sun_wind" />
+
+        <TextView
+            android:id="@+id/temperature"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="40dp"
+            android:text="0°C"
+            android:textColor="#004983"
+            android:textSize="59sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/weatherCondition"
+            android:layout_width="238dp"
+            android:layout_height="wrap_content"
+            android:text="Sky"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="40dp"
+            android:textColor="#004983"
+            android:textSize="29sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            inearLayout>
+
+            <TextView
+                android:id="@+id/humidity1"
+                android:layout_width="93dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="5dp"
+                android:text="Humidity :"
+                android:textColor="#004983"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/humidity"
+                android:layout_width="239dp"
+                android:layout_height="wrap_content"
+                android:text="Humidity"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="0dp"
+                android:textColor="#004983"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/cityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WEATHER"
+            android:textColor="#004983"
+            android:layout_marginLeft="20dp"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/humidity2"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_marginLeft="5dp"
+            android:text="----------------------------"
+            android:textColor="#004983"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.sell.SellFragment">
+
+    <ScrollView
+        android:id="@+id/r_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarSize="0.1dp">
+
+        <LinearLayout
+            android:id="@+id/r_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:scrollbarSize="0.1dp">
+
+            <TextView
+                android:id="@+id/r_t_selectcategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#004983"
+                android:drawablePadding="15dp"
+                android:text="Select Crop Category"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/r_s_selectcategory"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="15dp"
+                android:entries="@array/Crop_Categary"
+                android:imeOptions="actionNext"/>
+
+            <TextView
+                android:id="@+id/r_t_selectname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="15dp"
+                android:textColor="#004983"
+                android:text="Select Crop Name"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/r_s_selectname"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="#004983"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="15dp"
+                android:entries="@array/cereals_list"
+                android:imeOptions="actionNext"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/retcropquentityLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/r_etcrop_quentity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="#0E3FB8"
+                    android:inputType="number"
+                    android:ems="100"
+                    android:hint="Crop Quentity(મણ)" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/retcroppriceLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/r_etcrop_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="#0E3FB8"
+                    android:inputType="number"
+                    android:ems="100"
+                    android:hint="Crop Price" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:id="@+id/r_t_selectdistrict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="15dp"
+                android:textColor="#004983"
+                android:text="Select District"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/r_s_selectdistrict"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textColor="#004983"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="15dp"
+                android:entries="@array/District"
+                android:imeOptions="actionNext"/>
+
+            <TextView
+                android:id="@+id/r_t_selectctaluka"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="15dp"
+                android:textColor="#004983"
+                android:text="Select Taluka"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/r_s_selecttaluka"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="50dp"
+                android:textColor="#004983"
+                android:layout_marginTop="15dp"
+                android:entries="@array/junagadh_Taluka"
+                android:imeOptions="actionNext"/>
+
+            <TextView
+                android:id="@+id/r_t_selectvillage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:drawablePadding="15dp"
+                android:textColor="#004983"
+                android:text="Select Village"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/r_s_selectvillage"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="15dp"
+                android:textColor="#004983"
+                android:entries="@array/junagadh_Village"
+                android:imeOptions="actionNext"/>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/retfarmaddressLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/r_etcrop_farmaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="#0E3FB8"
+                    android:inputType="textCapWords"
+                    android:ems="100"
+                    android:hint="Farmer Address" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/retotherdetailsLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/r_etotherdetails"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:drawablePadding="15dp"
+                    android:drawableTint="#0E3FB8"
+                    android:inputType="textCapSentences"
+                    android:ems="100"
+                    android:hint="Other Details" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/r_b_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:text="ADD"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1040786606021",
+    "project_id": "krushi-94896",
+    "storage_bucket": "krushi-94896.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040786606021:android:4ca20341228de12a156dac",
+        "android_client_info": {
+          "package_name": "com.example.krushiemarket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040786606021-fjkmec4n4ka60vf6u1cd5k027d4bq05j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEGiG46RlVGG4aqtJG_LxjKgu9Nsu8cTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040786606021-fjkmec4n4ka60vf6u1cd5k027d4bq05j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040786606021:android:cbfd7b1990905056156dac",
+        "android_client_info": {
+          "package_name": "com.example.navigationdraweractivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040786606021-fjkmec4n4ka60vf6u1cd5k027d4bq05j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEGiG46RlVGG4aqtJG_LxjKgu9Nsu8cTA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040786606021-fjkmec4n4ka60vf6u1cd5k027d4bq05j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

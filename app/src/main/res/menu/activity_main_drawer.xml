@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/gr1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_price"
+            android:icon="@drawable/ic_baseline_price_change_24"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_weather"
+            android:icon="@drawable/ic_baseline_cloud_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_buy"
+            android:icon="@drawable/ic_baseline_sell_24"
+            android:title="@string/menu_slideshow" />
+
+        <item
+            android:id="@+id/nav_sell"
+            android:icon="@drawable/ic_baseline_sell_24"
+            android:title="@string/menu_sell" />
+
+        <item
+            android:id="@+id/nav_govScheme"
+            android:icon="@drawable/ic_baseline_school_scheme"
+            android:title="@string/menu_gov_scheme" />
+
+    </group>
+
+    <item android:title="@string/item_setting">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_history"
+                    android:icon="@drawable/ic_baseline_history"
+                    android:title="@string/menu_sellHistory" />
+                <item
+                    android:id="@+id/nav_buy_history"
+                    android:icon="@drawable/ic_baseline_history"
+                    android:title="@string/menu_buyHistory"/>
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="@string/menu_contact" />
+                <item
+                    android:id="@+id/nav_service"
+                    android:icon="@drawable/ic_baseline_design_services_24"
+                    android:title="@string/menu_service" />
+                <item
+                    android:id="@+id/nav_tandc"
+                    android:icon="@drawable/ic_baseline_iterms"
+                    android:title="@string/menu_tandc" />
+<!--                <item-->
+<!--                    android:id="@+id/nav_language"-->
+<!--                    android:icon="@drawable/ic_menu_slideshow"-->
+<!--                    android:title="@string/menu_language" />-->
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_baseline_login"
+                    android:title="@string/menu_logout" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
